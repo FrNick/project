@@ -29,16 +29,7 @@
               </ul>
             </nav>
           </div>
-          <div class="col-3">
-            <form class="form">
-              <div class="search">
-                <input class="srh-btn" type="search-txt" placeholder="search" />
-              </div>
-              <div class="button">
-                <button><img src="images/icon (1).png" alt="" /></button>
-              </div>
-            </form>
-          </div>
+          <div class="col-3">search</div>
         </div>
       </div>
     </header>

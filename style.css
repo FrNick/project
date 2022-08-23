@@ -13,7 +13,8 @@ body {
   margin: 0 auto;
 }
 .row::after,
-.menu:after {
+.menu:after,
+.form:after {
   content: "";
   display: block;
   clear: both;
@@ -25,7 +26,6 @@ body {
 .col-3 {
   width: 25%;
 }
-
 .col-6 {
   width: 50%;
 }
@@ -61,5 +61,45 @@ body {
 }
 .menu a:hover {
   background-color: #2c71b8;
+}
+.form input,
+img {
+  display: flex;
+  float: left;
+}
+.form input {
+  height: 40px;
+  width: 200px;
+  border: 1px solid #2c71b8;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.form input::placeholder {
+  color: #2c71b8;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 100;
+  line-height: 50px;
+  position: relative;
+  border: none;
+}
+.form button {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  border: none;
+}
+.button img {
+  height: 20px;
+  width: 20px;
+}
+.srh-btn img {
+  height: 30px;
+  width: 30px;
+  border: none;
+  position: absolute;
+}
+
+.button:hover {
   color: white;
+  background-color: #2c71b8;
 }
